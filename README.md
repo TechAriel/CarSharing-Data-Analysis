@@ -99,7 +99,10 @@ Output showing variance of sample counts in clusters for different values of k, 
 ## Credits
 This project was developed as part of the CSC-40054 coursework at Keele University, under the guidance of Module Leader Dr. Wenjuan Zhou. The entire project, including database management, data analysis, and the compilation of this README, was carried out individually by:
 
-Author: [Gabriel Oduor]
-Contact: [gabriel.okoth101@gmail.com]
-GitHub Profile: [TechAriel](https://github.com/TechAriel/)
+*Author: Gabriel Oduor*
+
+*Contact: gabriel.okoth101@gmail.com*
+
+*GitHub Profile: [TechAriel](https://github.com/TechAriel/)*
+
 I welcome any questions, comments, or suggestions for improvement. Please feel free to open an issue or submit a pull request on the repository.
