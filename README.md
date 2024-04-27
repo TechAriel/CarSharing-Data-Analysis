@@ -43,18 +43,63 @@ After setting up the database, use Data Analytics.py to execute various data ana
 ```
 python Data Analytics.py
 ```
-### *Data Cleaning and Preprocessing*
+### *1. Data Cleaning Process*
+
+The output showing the summary of null values before and after filling.
+Before proceeding with the imputation of missing values, we conducted a thorough assessment of the distributions for the columns with null values. 
+This assessment helps in choosing the most appropriate method for filling in these values—whether mean, median, or another method—based on characteristics like skewness, presence of outliers, and central tendency.
+
+![Dataset with Null Values](images/DatasetwithNullValues.png)
+
+![Distibution Assessment Columns with Null Values](images/DistibutionAssessmentofEachColumn.png)
+
+![Cleaned Dataset](images/CleanedDataset.png)
+
+### *2. Statistical Analysis Output*
+
+The output from Pearson correlation and ANOVA tests that identifies significant relationships between features and demand.
+
+![Statistical Analysis Results](images/StatisticalAnalysisResults.png)
+
+### *3. Seasonal and Cyclic Patterns Visualization*
+
+A series of plots showing temperature, humidity, windspeed, and demand over 2017. This visually demonstrates how each factor varies through the year.
+
+![Seasonal Trends in Weather and Demand](images/SeasonalTrendsinWeatherandDemand.png)
+
+![Seasonal Trends in Weather and Demand](images/SeasonalTrendsinWeatherandDemand1.png)
+
+### *4. Predictive Modeling Results*
+
+Results of the ARIMA model predictions versus actual data, showcasing the model's predictive power for demand forecasting.
+
+![ARIMA Model Forecasting](images/ARIMAModelForecasting.png)
+
+![ARIMA Model Forecasting](images/ARIMAModelForecasting1.png)
+
+### *5. Comparison of Machine Learning Model Performances*
+
+The output showing the mean squared errors from Random Forest and Neural Network Models, providing a clear comparison of their performance.
+
+![Performance Comparison of Random Forest and Neural Network Models](images/PerformanceComparisonofRandomForestandNeuralNetworkModels.png)
+
+### *6. Classification Model Accuracies*
+
+The accuracy results for Logistic Regression, Random Forest, and Gradient Boosting classifiers, highlighting the effectiveness of each model.
+
+![Classifier Performance Comparison](images/ClassifierPerformanceComparison.png)
+
+### *7. Clustering Analysis*
+
+Output showing variance of sample counts in clusters for different values of k, demonstrating the analysis used to determine the most uniform cluster distribution.
+
+![Cluster Uniformity Analysis](images/ClusterUniformityAnalysis.png)
 
 
+## Credits
+This project was developed as part of the CSC-40054 coursework at Keele University, under the guidance of Module Leader Dr. Wenjuan Zhou. The entire project, including database management, data analysis, and the compilation of this README, was carried out individually by:
 
-markdown
-Copy code
-![Database Setup](path/to/database_setup.png)
-![Analysis Output](path/to/analysis_output.png)
-Credits
-This project was developed as part of the CSC-40054 coursework at Keele University, under the guidance of Module Leader Dr. Wenjuan Zhou. The tasks were divided and tackled individually, with collaboration on integration and testing phases.
-
-Author: [Your Name]
-Contact: [Your Email]
-GitHub Profile: Your GitHub
-For further questions or contributions, please open an issue or a pull request to the repository.
+Author: [Gabriel Oduor]
+Contact: [gabriel.okoth101@gmail.com]
+GitHub Profile: [TechAriel](https://github.com/TechAriel/)
+I welcome any questions, comments, or suggestions for improvement. Please feel free to open an issue or submit a pull request on the repository.
