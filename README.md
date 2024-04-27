@@ -6,8 +6,10 @@ This project encompasses a comprehensive analysis and management of a car-sharin
 # Table of Contents
 
 [Installation](#Installation)
+
 [Usage](#Usage)
-[Screenshots](#Screenshots)
+
+
 [Credits](#Credits])
 
 ## Installation
@@ -15,30 +17,35 @@ This project encompasses a comprehensive analysis and management of a car-sharin
 Ensure Python 3 is installed on your system. You can download it from python.org.
 ### 2. Clone the Repository
 ```
-git clone https://github.com/your-username/carsharing-analysis.git
+git clone https://github.com/TechAriel/CarSharing-Data-Analysis.git
 ```
 ```
-cd carsharing-analysis
+cd CarSharing-Data-Analysis
 ```
 
 ### 3. Install Dependencies
 ```
 pip install sqlite3
 ```
-### Database Setup
+### 4. Database Setup
 Ensure SQLite3 is installed on your system, which will be used for database operations.
-Use the provided script Database Management.py to setup and populate your database.
-Usage
-Database Management: Run the script Database Management.py to perform database initialization, data importing, and transformation tasks as outlined in Part I of the coursework.
-bash
-Copy code
+Use the provided script "Database Management.py" to setup and populate your database.
+
+## Usage
+
+### * Database Management
+Run the script Database Management.py to perform database initialization, data importing, and transformation tasks as outlined in Part I of the coursework.
+```
 python Database Management.py
-Data Analytics: After setting up the database, use Data Analytics.py to execute various data analysis tasks including statistical tests, pattern recognition, and predictive modeling as detailed in Part II of the coursework.
-bash
-Copy code
+```
+### * Data Analytics 
+After setting up the database, use Data Analytics.py to execute various data analysis tasks including statistical tests, pattern recognition, and predictive modeling as detailed in Part II of the coursework.
+```
 python Data Analytics.py
-Screenshots
-Add screenshots here to show what the output looks like after running your scripts. This helps provide a visual understanding of the project. Images should be stored in the repository and linked like so:
+```
+### *Data Cleaning and Preprocessing*
+
+
 
 markdown
 Copy code
